@@ -9,12 +9,10 @@ hello_name("USERNAME")
 #function that prints odd numbers from 1-100
 #and returns nothing
 def first_odds(num):
-    while num <= 100:
+    while num < 100:
         num += 1
         if num % 2 == 1:
             print(num)
-        elif num == 100:
-            break
         else:
             continue
 num=0
